@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		863823221491FF7C8F7C8E50 /* Pods_TravelTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B13BF56968A33559B0D8D45 /* Pods_TravelTracker.framework */; };
+		CE0B89BD1E21F1D40079D6EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B89B31E21F1D40079D6EF /* AppDelegate.swift */; };
+		CE0B89BE1E21F1D40079D6EF /* Travel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B89B51E21F1D40079D6EF /* Travel.swift */; };
+		CE0B89BF1E21F1D40079D6EF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B89B71E21F1D40079D6EF /* LocationManager.swift */; };
+		CE0B89C01E21F1D40079D6EF /* TravelStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B89B81E21F1D40079D6EF /* TravelStore.swift */; };
+		CE0B89C11E21F1D40079D6EF /* CurrentTravelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B89BA1E21F1D40079D6EF /* CurrentTravelController.swift */; };
+		CE0B89C21E21F1D40079D6EF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B89BB1E21F1D40079D6EF /* MapViewController.swift */; };
+		CE0B89C31E21F1D40079D6EF /* TravelHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B89BC1E21F1D40079D6EF /* TravelHistoryViewController.swift */; };
+		CE0B89C51E21F2960079D6EF /* TravelStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B89C41E21F2960079D6EF /* TravelStoreTests.swift */; };
+		CE0B89C71E21F2A20079D6EF /* LocationManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B89C61E21F2A20079D6EF /* LocationManagerTests.swift */; };
+		CE0B89C91E220B440079D6EF /* MapViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B89C81E220B440079D6EF /* MapViewControllerTests.swift */; };
+		CE0B89CB1E2210AB0079D6EF /* CurrentTravelControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B89CA1E2210AB0079D6EF /* CurrentTravelControllerTests.swift */; };
+		CEB8BB0E1E20E51400879C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB8BB0C1E20E51400879C26 /* Main.storyboard */; };
+		CEB8BB101E20E51400879C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB8BB0F1E20E51400879C26 /* Assets.xcassets */; };
+		CEB8BB131E20E51400879C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB8BB111E20E51400879C26 /* LaunchScreen.storyboard */; };
+		CEB8BB1E1E20E51400879C26 /* TravelTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8BB1D1E20E51400879C26 /* TravelTrackerTests.swift */; };
+		F84688BDEA9A6F9C787B77D5 /* Pods_TravelTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD8EF941C90607E8B75A26B /* Pods_TravelTrackerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB8BB1A1E20E51400879C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB8BAFD1E20E51400879C26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB8BB041E20E51400879C26;
+			remoteInfo = TravelTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		632B968BA993FAC89E89D9FD /* Pods-TravelTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelTracker/Pods-TravelTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		6397FF91745A3B7548971512 /* Pods-TravelTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelTrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelTrackerTests/Pods-TravelTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		888F0DCD9CE3B2D8B0F0E168 /* Pods-TravelTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelTracker/Pods-TravelTracker.release.xcconfig"; sourceTree = "<group>"; };
+		8B13BF56968A33559B0D8D45 /* Pods_TravelTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0B89B31E21F1D40079D6EF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE0B89B51E21F1D40079D6EF /* Travel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Travel.swift; sourceTree = "<group>"; };
+		CE0B89B71E21F1D40079D6EF /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		CE0B89B81E21F1D40079D6EF /* TravelStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelStore.swift; sourceTree = "<group>"; };
+		CE0B89BA1E21F1D40079D6EF /* CurrentTravelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTravelController.swift; sourceTree = "<group>"; };
+		CE0B89BB1E21F1D40079D6EF /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CE0B89BC1E21F1D40079D6EF /* TravelHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelHistoryViewController.swift; sourceTree = "<group>"; };
+		CE0B89C41E21F2960079D6EF /* TravelStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelStoreTests.swift; sourceTree = "<group>"; };
+		CE0B89C61E21F2A20079D6EF /* LocationManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManagerTests.swift; sourceTree = "<group>"; };
+		CE0B89C81E220B440079D6EF /* MapViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewControllerTests.swift; sourceTree = "<group>"; };
+		CE0B89CA1E2210AB0079D6EF /* CurrentTravelControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTravelControllerTests.swift; sourceTree = "<group>"; };
+		CEB8BB051E20E51400879C26 /* TravelTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB8BB0D1E20E51400879C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEB8BB0F1E20E51400879C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEB8BB121E20E51400879C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEB8BB141E20E51400879C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB8BB191E20E51400879C26 /* TravelTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB8BB1D1E20E51400879C26 /* TravelTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTrackerTests.swift; sourceTree = "<group>"; };
+		CEB8BB1F1E20E51400879C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA0EB669419910C185D330C8 /* Pods-TravelTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelTrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelTrackerTests/Pods-TravelTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBD8EF941C90607E8B75A26B /* Pods_TravelTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB8BB021E20E51400879C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863823221491FF7C8F7C8E50 /* Pods_TravelTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB8BB161E20E51400879C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84688BDEA9A6F9C787B77D5 /* Pods_TravelTrackerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19724AC2F9CA04FC1317C4FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				632B968BA993FAC89E89D9FD /* Pods-TravelTracker.debug.xcconfig */,
+				888F0DCD9CE3B2D8B0F0E168 /* Pods-TravelTracker.release.xcconfig */,
+				FA0EB669419910C185D330C8 /* Pods-TravelTrackerTests.debug.xcconfig */,
+				6397FF91745A3B7548971512 /* Pods-TravelTrackerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE0B89B41E21F1D40079D6EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE0B89B51E21F1D40079D6EF /* Travel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE0B89B61E21F1D40079D6EF /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				CE0B89B71E21F1D40079D6EF /* LocationManager.swift */,
+				CE0B89B81E21F1D40079D6EF /* TravelStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		CE0B89B91E21F1D40079D6EF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE0B89BA1E21F1D40079D6EF /* CurrentTravelController.swift */,
+				CE0B89BB1E21F1D40079D6EF /* MapViewController.swift */,
+				CE0B89BC1E21F1D40079D6EF /* TravelHistoryViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CEB8BAFC1E20E51400879C26 = {
+			isa = PBXGroup;
+			children = (
+				CEB8BB071E20E51400879C26 /* TravelTracker */,
+				CEB8BB1C1E20E51400879C26 /* TravelTrackerTests */,
+				CEB8BB061E20E51400879C26 /* Products */,
+				19724AC2F9CA04FC1317C4FD /* Pods */,
+				DC6FB935A6C9693F94E3D5E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB8BB061E20E51400879C26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB8BB051E20E51400879C26 /* TravelTracker.app */,
+				CEB8BB191E20E51400879C26 /* TravelTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB8BB071E20E51400879C26 /* TravelTracker */ = {
+			isa = PBXGroup;
+			children = (
+				CE0B89B41E21F1D40079D6EF /* Model */,
+				CE0B89B61E21F1D40079D6EF /* Store */,
+				CE0B89B91E21F1D40079D6EF /* ViewController */,
+				CE0B89B31E21F1D40079D6EF /* AppDelegate.swift */,
+				CEB8BB0C1E20E51400879C26 /* Main.storyboard */,
+				CEB8BB0F1E20E51400879C26 /* Assets.xcassets */,
+				CEB8BB111E20E51400879C26 /* LaunchScreen.storyboard */,
+				CEB8BB141E20E51400879C26 /* Info.plist */,
+			);
+			path = TravelTracker;
+			sourceTree = "<group>";
+		};
+		CEB8BB1C1E20E51400879C26 /* TravelTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB8BB1D1E20E51400879C26 /* TravelTrackerTests.swift */,
+				CEB8BB1F1E20E51400879C26 /* Info.plist */,
+				CE0B89C41E21F2960079D6EF /* TravelStoreTests.swift */,
+				CE0B89C61E21F2A20079D6EF /* LocationManagerTests.swift */,
+				CE0B89C81E220B440079D6EF /* MapViewControllerTests.swift */,
+				CE0B89CA1E2210AB0079D6EF /* CurrentTravelControllerTests.swift */,
+			);
+			path = TravelTrackerTests;
+			sourceTree = "<group>";
+		};
+		DC6FB935A6C9693F94E3D5E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B13BF56968A33559B0D8D45 /* Pods_TravelTracker.framework */,
+				FBD8EF941C90607E8B75A26B /* Pods_TravelTrackerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB8BB041E20E51400879C26 /* TravelTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB8BB221E20E51400879C26 /* Build configuration list for PBXNativeTarget "TravelTracker" */;
+			buildPhases = (
+				B31CAD415412FE3DC05F942B /* [CP] Check Pods Manifest.lock */,
+				CEB8BB011E20E51400879C26 /* Sources */,
+				CEB8BB021E20E51400879C26 /* Frameworks */,
+				CEB8BB031E20E51400879C26 /* Resources */,
+				443A33D9116A3D8600597051 /* [CP] Embed Pods Frameworks */,
+				FF696AF2630794D0B77065D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelTracker;
+			productName = TravelTracker;
+			productReference = CEB8BB051E20E51400879C26 /* TravelTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEB8BB181E20E51400879C26 /* TravelTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB8BB251E20E51400879C26 /* Build configuration list for PBXNativeTarget "TravelTrackerTests" */;
+			buildPhases = (
+				2BF96B2D37FE38ACE21408EF /* [CP] Check Pods Manifest.lock */,
+				CEB8BB151E20E51400879C26 /* Sources */,
+				CEB8BB161E20E51400879C26 /* Frameworks */,
+				CEB8BB171E20E51400879C26 /* Resources */,
+				656D69997DCCEA9474D1C373 /* [CP] Embed Pods Frameworks */,
+				563F64FBBA7EE688D30FBDAA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB8BB1B1E20E51400879C26 /* PBXTargetDependency */,
+			);
+			name = TravelTrackerTests;
+			productName = TravelTrackerTests;
+			productReference = CEB8BB191E20E51400879C26 /* TravelTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB8BAFD1E20E51400879C26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CEB8BB041E20E51400879C26 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = KR483D36ZE;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					CEB8BB181E20E51400879C26 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEB8BB041E20E51400879C26;
+					};
+				};
+			};
+			buildConfigurationList = CEB8BB001E20E51400879C26 /* Build configuration list for PBXProject "TravelTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB8BAFC1E20E51400879C26;
+			productRefGroup = CEB8BB061E20E51400879C26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB8BB041E20E51400879C26 /* TravelTracker */,
+				CEB8BB181E20E51400879C26 /* TravelTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB8BB031E20E51400879C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB8BB131E20E51400879C26 /* LaunchScreen.storyboard in Resources */,
+				CEB8BB101E20E51400879C26 /* Assets.xcassets in Resources */,
+				CEB8BB0E1E20E51400879C26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB8BB171E20E51400879C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BF96B2D37FE38ACE21408EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		443A33D9116A3D8600597051 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravelTracker/Pods-TravelTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		563F64FBBA7EE688D30FBDAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravelTrackerTests/Pods-TravelTrackerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		656D69997DCCEA9474D1C373 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravelTrackerTests/Pods-TravelTrackerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B31CAD415412FE3DC05F942B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF696AF2630794D0B77065D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TravelTracker/Pods-TravelTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB8BB011E20E51400879C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0B89BD1E21F1D40079D6EF /* AppDelegate.swift in Sources */,
+				CE0B89C21E21F1D40079D6EF /* MapViewController.swift in Sources */,
+				CE0B89BE1E21F1D40079D6EF /* Travel.swift in Sources */,
+				CE0B89C11E21F1D40079D6EF /* CurrentTravelController.swift in Sources */,
+				CE0B89BF1E21F1D40079D6EF /* LocationManager.swift in Sources */,
+				CE0B89C01E21F1D40079D6EF /* TravelStore.swift in Sources */,
+				CE0B89C31E21F1D40079D6EF /* TravelHistoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB8BB151E20E51400879C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0B89CB1E2210AB0079D6EF /* CurrentTravelControllerTests.swift in Sources */,
+				CE0B89C71E21F2A20079D6EF /* LocationManagerTests.swift in Sources */,
+				CEB8BB1E1E20E51400879C26 /* TravelTrackerTests.swift in Sources */,
+				CE0B89C51E21F2960079D6EF /* TravelStoreTests.swift in Sources */,
+				CE0B89C91E220B440079D6EF /* MapViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB8BB1B1E20E51400879C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB8BB041E20E51400879C26 /* TravelTracker */;
+			targetProxy = CEB8BB1A1E20E51400879C26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEB8BB0C1E20E51400879C26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB8BB0D1E20E51400879C26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB8BB111E20E51400879C26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB8BB121E20E51400879C26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB8BB201E20E51400879C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEB8BB211E20E51400879C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB8BB231E20E51400879C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 632B968BA993FAC89E89D9FD /* Pods-TravelTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = KR483D36ZE;
+				INFOPLIST_FILE = TravelTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenjie.TravelTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CEB8BB241E20E51400879C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 888F0DCD9CE3B2D8B0F0E168 /* Pods-TravelTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = KR483D36ZE;
+				INFOPLIST_FILE = TravelTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenjie.TravelTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CEB8BB261E20E51400879C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA0EB669419910C185D330C8 /* Pods-TravelTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TravelTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenjie.TravelTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelTracker.app/TravelTracker";
+			};
+			name = Debug;
+		};
+		CEB8BB271E20E51400879C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6397FF91745A3B7548971512 /* Pods-TravelTrackerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TravelTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenjie.TravelTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelTracker.app/TravelTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB8BB001E20E51400879C26 /* Build configuration list for PBXProject "TravelTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB8BB201E20E51400879C26 /* Debug */,
+				CEB8BB211E20E51400879C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB8BB221E20E51400879C26 /* Build configuration list for PBXNativeTarget "TravelTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB8BB231E20E51400879C26 /* Debug */,
+				CEB8BB241E20E51400879C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB8BB251E20E51400879C26 /* Build configuration list for PBXNativeTarget "TravelTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB8BB261E20E51400879C26 /* Debug */,
+				CEB8BB271E20E51400879C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB8BAFD1E20E51400879C26 /* Project object */;
+}
