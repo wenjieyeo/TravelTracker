@@ -22,7 +22,6 @@
 		CEB8BB0E1E20E51400879C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB8BB0C1E20E51400879C26 /* Main.storyboard */; };
 		CEB8BB101E20E51400879C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB8BB0F1E20E51400879C26 /* Assets.xcassets */; };
 		CEB8BB131E20E51400879C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB8BB111E20E51400879C26 /* LaunchScreen.storyboard */; };
-		CEB8BB1E1E20E51400879C26 /* TravelTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8BB1D1E20E51400879C26 /* TravelTrackerTests.swift */; };
 		F84688BDEA9A6F9C787B77D5 /* Pods_TravelTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD8EF941C90607E8B75A26B /* Pods_TravelTrackerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,7 +57,6 @@
 		CEB8BB121E20E51400879C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB8BB141E20E51400879C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEB8BB191E20E51400879C26 /* TravelTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEB8BB1D1E20E51400879C26 /* TravelTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTrackerTests.swift; sourceTree = "<group>"; };
 		CEB8BB1F1E20E51400879C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA0EB669419910C185D330C8 /* Pods-TravelTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelTrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelTrackerTests/Pods-TravelTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FBD8EF941C90607E8B75A26B /* Pods_TravelTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,7 +158,6 @@
 		CEB8BB1C1E20E51400879C26 /* TravelTrackerTests */ = {
 			isa = PBXGroup;
 			children = (
-				CEB8BB1D1E20E51400879C26 /* TravelTrackerTests.swift */,
 				CEB8BB1F1E20E51400879C26 /* Info.plist */,
 				CE0B89C41E21F2960079D6EF /* TravelStoreTests.swift */,
 				CE0B89C61E21F2A20079D6EF /* LocationManagerTests.swift */,
@@ -404,7 +401,6 @@
 			files = (
 				CE0B89CB1E2210AB0079D6EF /* CurrentTravelControllerTests.swift in Sources */,
 				CE0B89C71E21F2A20079D6EF /* LocationManagerTests.swift in Sources */,
-				CEB8BB1E1E20E51400879C26 /* TravelTrackerTests.swift in Sources */,
 				CE0B89C51E21F2960079D6EF /* TravelStoreTests.swift in Sources */,
 				CE0B89C91E220B440079D6EF /* MapViewControllerTests.swift in Sources */,
 			);
